@@ -1,0 +1,19 @@
+{
+  "watch": [
+    "server.js",
+    "routes",
+    "controllers",
+    "models",
+    "middleware"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "lib",
+    "build",
+    "android",
+    "web",
+    "assets",
+    "node_modules/**/.*",
+    "**/*.lock"
+  ]
+} 
