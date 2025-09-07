@@ -38,4 +38,7 @@ router.put('/:id/status', visitController.updateVisitStatus);
 // Get detailed visit information
 router.get('/:id', visitController.getVisitDetails);
 
+// Download visit report
+router.get('/:id/report/download', visitController.downloadVisitReport);
+
 module.exports = router;
